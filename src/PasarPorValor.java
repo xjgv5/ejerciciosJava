@@ -4,7 +4,7 @@ public class PasarPorValor {
         System.out.println("iniciamos el main = " + i);
         test(i);
         System.out.println("Finaliza main con i = " + i);
-        //pasa solamente el valor, no la referencia 
+        //pasa solamente el valor, no la referencia
     }
 
     public static void test(int i ){
