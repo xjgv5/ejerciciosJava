@@ -10,5 +10,6 @@ public class EjemploJavaDate {
         SimpleDateFormat df = new SimpleDateFormat("EEEE dd MMMM yyyy 'a las' HH:mm" );
         String fechaStr = df.format(fecha);
         System.out.println(fechaStr);
+
     }
 }
