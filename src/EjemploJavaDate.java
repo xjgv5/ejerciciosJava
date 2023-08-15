@@ -7,9 +7,12 @@ public class EjemploJavaDate {
 
         System.out.println("fecha = " + fecha);
 
-        SimpleDateFormat df = new SimpleDateFormat("EEEE dd MMMM yyyy 'a las' HH:mm" );
+        SimpleDateFormat df = new SimpleDateFormat("dd MMMM yyyy" );
         String fechaStr = df.format(fecha);
+        String[] datos = fechaStr.split(" ");
         System.out.println(fechaStr);
-
+        for (String dat : datos){
+            System.out.println(dat);
+        }
     }
 }

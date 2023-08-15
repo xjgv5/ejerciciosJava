@@ -6,10 +6,6 @@ import java.util.Date;
 public class EjemploJavaUtilCalendar {
     public static void main(String[] args) {
         
-        Date fechaDate = new Date();
-        SimpleDateFormat df = new SimpleDateFormat("EEEE/dd/MMMM/yyyy");
-        String fechaStr = df.format(fechaDate);
-        String[] datosFecha = fechaStr.split("/");
 
         
         //------------------------
@@ -21,5 +17,6 @@ public class EjemploJavaUtilCalendar {
         calendario.set(Calendar.DATE, 25);
         Date fecha = calendario.getTime();
         System.out.println("calendario = " + fecha);
+
     }
 }
