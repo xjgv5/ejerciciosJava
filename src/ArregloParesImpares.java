@@ -35,12 +35,11 @@ public class ArregloParesImpares {
 
         System.out.println("Numeros pares : ");
         for (int i = 0; i < pares.length; i++){
-            System.out.println(pares[i]);
+            System.out.print(pares[i] + " ");
         }
-        System.out.println("--------------------");
-        System.out.println("Numeros impares");
+        System.out.println("\nNumeros impares");
         for (int i = 0; i < impares.length; i++){
-            System.out.println(impares[i]);
+            System.out.print(impares[i] + " ");
         }
 
     }
